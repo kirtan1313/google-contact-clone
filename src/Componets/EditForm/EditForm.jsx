@@ -15,7 +15,7 @@ function EditForm() {
 
     useEffect(() => {
         if (!book) {
-            navigate('/home');
+            navigate('/');
         }
     }, [book, navigate]);
 
@@ -28,7 +28,7 @@ function EditForm() {
         e.preventDefault();
         console.log("update data", e);
         dispatch(updateDataAsync(editGData));
-        navigate('/home');
+        navigate('/');
         // setIsUpdate(true);
     };
 

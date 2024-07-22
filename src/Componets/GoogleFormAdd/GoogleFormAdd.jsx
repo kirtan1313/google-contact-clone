@@ -40,7 +40,7 @@ function GoogleFormAdd() {
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch(AddBookAsync(inputGoogle));
-        navigate('/home');
+        navigate('/');
     };
     return (
         <>

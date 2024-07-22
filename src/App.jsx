@@ -17,7 +17,7 @@ function App() {
 
       <Routes >
         <Route path="/form" element={<GoogleFormAdd />} />
-        <Route path='/home' element={<AdminPannel />} />
+        <Route path='/' element={<AdminPannel />} />
         {/* <Route path="/viewData" element={<ViewForm />} /> */}
         <Route path='/Edit' element={<EditForm />} />
       </Routes>
